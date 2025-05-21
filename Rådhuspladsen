@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rådhuspladsen - Kopenhaagen 1. päev</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 15px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #222;
+        }
+        h1, h2 {
+            color: #005a87;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .map-container {
+            margin: 15px 0;
+            width: 100%;
+            height: 300px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .back-link {
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rådhuspladsen (Raekoja plats)</h1>
+
+    <p>Rådhuspladsen on Kopenhaageni südalinnas asuv üks tähtsamaid ja elavamaid avalikke väljakuid. Ta asub linna ajaloolise raekoja (Københavns Rådhus) ees ning on olnud sajandeid linnakodanike kogunemiskoht. Tänapäeval on see populaarne nii kohalike kui ka turistide seas, sest siit algab kuulus jalakäijate tänav Strøget ja siit pääseb mugavalt mitmetesse huviväärsetesse paikadesse.</p>
+
+    <p>Väljaku sümboliteks on mitmed huvitavad skulptuurid ja arhitektuurilised detailid. Kõige tuntum on Rådhuse ette tõstetud draakonipostament, mille ümber on tihti inimesi. See draakon on osa Taani vanast legendist ning esindab linna tugevat identiteeti. Samuti on väljakul näha mitmeid uhkeid fassaade ja 1905. aastal valminud raekoja kellatorn, millelt avaneb vaade kogu linnale.</p>
+
+    <p>Lisaks on Rådhuspladsen tuntud kui linnasündmuste keskus — seal peetakse festivalide, protestide ja kontsertide ajaloolisi ja kaasaegseid üritusi. Platsi lähedal on mitmed kuulsad kohvikud ja poed, kust saab nautida kohalikku elu ning nautida vaadet inimestele, kes läbi tänava Strøget jalutavad.</p>
+
+    <p>Rådhuspladseni lähedal asuvad olulised skulptuurid ja vaatamisväärsused on:</p>
+    <ul>
+        <li><strong>Draakoni postament:</strong> asub väljaku lääneosas, raekoja ettepoole, on rahvuslik sümbol ja populaarne koht piltide tegemiseks.</li>
+        <li><strong>Ilmatüdruk (Vejr-pigen):</strong> skulptuur, mis kujutab ilmatüdrukut ja asub väljaku ääres Strøgeti alguses – tuntud koht kohalike seas.</li>
+        <li><strong>Raekoja kellatorn:</strong> 105 meetri kõrgune torn, mille juures on ka kuulus kell “Klokkespillet” (kellamäng), mis mängib igal täistunnil.</li>
+        <li><strong>Strøget:</strong> algab Rådhuspladsenist idas, see on üks pikimaid jalakäijate tänavaid Euroopas, mis kulgeb mööda vanalinna.</li>
+    </ul>
+
+    <p>Kui seisad Rådhuspladsenil, on lihtne orienteeruda: raekoda on suunaga põhja poole, Strøget algab idast (paremale) ja Tivoli aed jääb väljaku lõunaküljele (vasakule). Tänaval kulgev draakon ja ilmatüdruk annavad hea juhise, kus sa täpselt oled.</p>
+
+    <h2>Transpordiinfo</h2>
+    <p><strong>Metroojaam:</strong> Rådhuspladsen, asub väljaku all, ühendades linna M3 ja M4 liinidega. Jaamast väljudes oled otse väljaku keskel.</p>
+    <p><strong>Bussid:</strong> Peatused asuvad otse väljaku ääres. Tihti sõidavad 2A, 5C, 250S ning muud liinid, mis ühendavad sind mugavalt üle linna.</p>
+
+    <h2>Google Maps kaart</h2>
+    <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.654776214956!2d12.568337916058646!3d55.67594428055033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253edae93d1d1%3A0x186c635bb6c360f1!2sR%C3%A5dhuspladsen!5e0!3m2!1set!2see!4v1684612345678!5m2!1set!2see"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <h2>Tasuta pildid Rådhuspladsenist</h2>
+    <ul>
+        <li><a href="https://unsplash.com/s/photos/r%C3%A5dhuspladsen" target="_blank" rel="noopener">Unsplash – Rådhuspladsen</a></li>
+        <li><a href="https://pixabay.com/photos/copenhagen-city-hall-denmark-123456/" target="_blank" rel="noopener">Pixabay – Copenhagen City Hall</a></li>
+    </ul>
+
+    <p class="back-link"><a href="kopenhaagen-1-paev.html">&larr; Tagasi 1. päeva marsruudi juurde</a></p>
+</body>
+</html>
