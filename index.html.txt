@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minu Reisid 2025</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Minu Reisid 2025</h1>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="kopenhaagen_1.html">Reis juuni 2025 - Kopenhaagen</a></li>
+        <li><a href="genf_1.html">Reis juuni 2025 - Genf</a></li>
+      </ul>
+    </nav>
+  </main>
+</body>
+</html>
