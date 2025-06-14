@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalgratta ja Elektritõukerataste Laenutus Linnades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+        }
+        .city-list {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+        .city-list li {
+            margin: 10px 0;
+        }
+        .city-list a {
+            text-decoration: none;
+            color: #333;
+            padding: 12px;
+            background-color: #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .city-list a:hover {
+            background-color: #bbb;
+        }
+        .city-summary {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+        .city-summary h2 {
+            text-align: center;
+            color: #333;
+        }
+        .city-summary p {
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .back-to-top {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .back-to-top:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobiiliversioon */
+        @media (max-width: 768px) {
+            .city-list a {
+                display: block;
+                margin: 5px 0;
+                padding: 10px;
+            }
+            .city-summary {
+                padding: 10px;
+            }
+            .city-summary p {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Jalgratta ja Elektritõukerataste Laenutus Linnades</h1>
+
+<ul class="city-list">
+    <li><a href="#copenhagen">Kopenhaagen</a></li>
+    <li><a href="#berlin">Berliin</a></li>
+    <li><a href="#geneva">Genf</a></li>
+    <li><a href="#stockholm">Stockholm</a></li>
+</ul>
+
+<div class="city-summary" id="copenhagen">
+    <h2>Kopenhaagen</h2>
+    <p><strong>Jalgratta laenutus:</strong> Kopenhaagenis on jalgrattalaenutus väga populaarne. Kõige tuntumad teenusepakkujad on <strong>Bike Share Copenhagen</strong> ja <strong>Donkey Republic</strong>, mis pakuvad paindlikke rendivõimalusi. Rentida saab jalgrattaid erinevates linnapiirkondades ja hind algab umbes 30 DKK (~4 EUR) ühe tunni eest. Paigaldatud jaoturid on kõikjal linnas, et saaksid mugavalt jalgrattaid võtta ja jätta.</p>
+    <p><strong>Elektritõukerattad:</strong> Kopenhaagenis pakuvad elektritõukerattaid teenusepakkujad nagu <strong>Lime</strong> ja <strong>Bolt</strong>. Elektritõukeratta rentimine maksab umbes 1 DKK (~0,15 EUR) minutis. Tõukerataste kasutamiseks tuleb alla laadida rakendus ja registreeruda teenusepakkuja juures. See on suurepärane viis, kuidas kiiresti ja mugavalt liikuda mööda linna.</p>
+    <p><a href="#top" class="back-to-top">Tagasi ülesse</a></p>
+</div>
+
+<div class="city-summary" id="berlin">
+    <h2>Berliin</h2>
+    <p><strong>Jalgratta laenutus:</strong> Berliinis on palju jalgrattalaenutuse teenusepakkujaid. <strong>Nextbike</strong> on üks peamisi teenusepakkujaid, mis pakub ka jalgrattaid eri piirkondades. Hind algab umbes 1 EUR iga 30 minuti eest. Rattalaenutuspunktid on paigaldatud tähtsatesse linnapiirkondadesse, nagu Alexanderplatz ja Brandenburgi värav.</p>
+    <p><strong>Elektritõukerattad:</strong> Berliinis pakuvad teenuseid <strong>Lime</strong>, <strong>Tier</strong> ja <strong>Bolt</strong>. Elektritõukeratta rentimine maksab umbes 0,25 EUR minutis. Lae alla vastavad rakendused ja leia lähim tõukeratas, et teha kiireid sõite üle linna.</p>
+    <p><a href="#top" class="back-to-top">Tagasi ülesse</a></p>
+</div>
+
+<div class="city-summary" id="geneva">
+    <h2>Genf</h2>
+    <p><strong>Jalgratta laenutus:</strong> Genfis on saadaval teenus nimega <strong>Geneva Bike</strong>, kus pakutakse jalgrattaid ühistranspordi sõlmpunktides. Rentimine on taskukohane, hind on umbes 3 CHF (~2,7 EUR) tunni eest. Jalgrattaga saab sõita mööda Genfi järve ääres olevaid jalgrattateid, nautides maastiku ilu.</p>
+    <p><strong>Elektritõukerattad:</strong> <strong>Lime</strong> ja <strong>Circ</strong> pakuvad Genfis elektritõukerataste laenutust. Rentimine maksab umbes 1,20 CHF (~1,1 EUR) minutis. Elektritõukerattad on igal pool saadaval ja neid saab mugavalt rentida rakenduste kaudu.</p>
+    <p><a href="#top" class="back-to-top">Tagasi ülesse</a></p>
+</div>
+
+<div class="city-summary" id="stockholm">
+    <h2>Stockholm</h2>
+    <p><strong>Jalgratta laenutus:</strong> Stockholmis pakuvad jalgratta laenutust teenused <strong>City Bikes</strong> ja <strong>Stockholm Bike</strong>. Hind on umbes 30 SEK (~3 EUR) iga tunni eest. Jalgrattad on saadaval erinevates piirkondades, sealhulgas Gamla Stanis ja Djurgårdeni saarel, ning neid saab mugavalt rentida vastavatest jaoturitest.</p>
+    <p><strong>Elektritõukerattad:</strong> Stockholmis on saadaval teenused nagu <strong>Lime</strong> ja <strong>Voi</strong>. Elektritõukerattad maksavad umbes 1,5 SEK (~0,15 EUR) minutis. Kasutamiseks tuleb alla laadida rakendus ja leida läheduses olev tõukeratas.</p>
+    <p><a href="#top" class="back-to-top">Tagasi ülesse</a></p>
+</div>
+
+</body>
+</html>
